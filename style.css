@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,200&display=swap');
+
+
+* {
+
+    font-family: 'Kanit', sans-serif;
+
+}
+body .background-npd{
+    background-image: url('BG/tiles-shapes-2617112_1920.jpg');
+    background-size: cover;
+}
+
+.popup {
+
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+
+}
+
+.popup-content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 60px;
+    margin: 10% auto;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.popup-re {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 60px;
+    margin: 10% auto;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+}
+
+.custom-card {
+    width: 600px;
+    height: 600px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sidebar a  {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+.sidebar  a:hover  {
+    background-color: #a8a8a8;
+}
+
+/* Main content container */
+.content {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header{
+    padding: 20px;
+    background: #333;
+    border-bottom: 1px solid #e0e4e8;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.sidebar ul li {
+    padding: 5px;
+}
+
+/* Style the icons */
+.sidebar ul li i {
+    margin-right: 10px;
+    width: 25px; /* Add some space between the icon and text */
+}
+
+.sidebar .social_media{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+.sidebar .social_media a{
+    display: block;
+    width: 40px;
+    background: #594f8d;
+    height: 40px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 5px;
+    color: #bdb8d7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
